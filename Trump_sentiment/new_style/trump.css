@@ -1,0 +1,23 @@
+
+
+table, th, td {
+  border-left: none;
+  border-right: none;
+}
+
+table tr:last-child {
+    border-bottom: none;
+}
+
+table tr td:last-child {
+ border-collapse:collapse;
+}
+
+td{
+  text-align: justify;
+
+}
+table{
+    border-spacing: 5px 12px;
+  padding: 0 8px 8px 0;
+}

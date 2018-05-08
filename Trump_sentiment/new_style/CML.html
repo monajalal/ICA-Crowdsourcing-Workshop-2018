@@ -1,0 +1,43 @@
+<div class="html-element-wrapper">
+  <p>Read through the following tweet and answer the following questions.
+  </p>
+  <br />
+  <table style="width: 100%;">
+    <tbody>
+      <tr>
+        <td style="width: 100%; background-color: rgba(51, 204, 255, 0.5); padding: 10px; word-spacing: 5px;">
+          <span style="font-weight:bold"> 
+            <font size="4">
+            "{{content}}"
+          </font>
+          </span>
+          <br />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br />
+  <a href="{{url}}" target="_blank"></a>
+</div>
+<cml:radios label="Q1: What was the tweet's overall attitude toward Donald Trump?" validates="required" gold="true">
+  <cml:radio label="Positive" value="1"></cml:radio>
+  <cml:radio label="Neutral" value="2"></cml:radio>
+  <cml:radio label="Negative" value="3"></cml:radio>
+  <cml:radio label="N/A (Not about Trump)" value="99"></cml:radio>
+</cml:radios>
+
+<cml:radios label="Q2: Some tweets's attitude toward Donald Trump are straightforward, but others can be vague. To what extent are you confident about your answer to Q1?" validates="required" gold="true">
+  <cml:radio label="Very confident" value="1"></cml:radio>
+  <cml:radio label="Somewhat confident" value="2"></cml:radio>
+  <cml:radio label="Neither confident nor unconfident" value="3"></cml:radio>
+  <cml:radio label="Not very confident" value="4"></cml:radio>
+  <cml:radio label="Not confident at all" value="5"></cml:radio>
+</cml:radios>
+
+
+
+
+
+
+
+
